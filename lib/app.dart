@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_netflix/screens/main_screen.dart';
+import 'package:flutter_netflix/screens/popcorn/home.dart';
 
 void main() => runApp(App());
 
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
       theme: _buildTheme(ThemeData.dark()),
       routes: {
         "/": (context) {
-          return MainScreen();
+          return Home();
         }
       },
     );
